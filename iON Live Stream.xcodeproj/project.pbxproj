@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63F3E0691B31333C00929AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F3E0681B31333C00929AFD /* AppDelegate.swift */; };
+		63F3E06B1B31333C00929AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F3E06A1B31333C00929AFD /* ViewController.swift */; };
+		63F3E06D1B31333C00929AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F3E06C1B31333C00929AFD /* Assets.xcassets */; };
+		63F3E0701B31333C00929AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F3E06E1B31333C00929AFD /* Main.storyboard */; };
+		63F3E07B1B31333C00929AFD /* iON_Live_StreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F3E07A1B31333C00929AFD /* iON_Live_StreamTests.swift */; };
+		63F3E0861B31333C00929AFD /* iON_Live_StreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F3E0851B31333C00929AFD /* iON_Live_StreamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63F3E0771B31333C00929AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F3E05D1B31333B00929AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F3E0641B31333C00929AFD;
+			remoteInfo = "iON Live Stream";
+		};
+		63F3E0821B31333C00929AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F3E05D1B31333B00929AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F3E0641B31333C00929AFD;
+			remoteInfo = "iON Live Stream";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63F3E0651B31333C00929AFD /* iON Live Stream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iON Live Stream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F3E0681B31333C00929AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63F3E06A1B31333C00929AFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63F3E06C1B31333C00929AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63F3E06F1B31333C00929AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63F3E0711B31333C00929AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F3E0761B31333C00929AFD /* iON Live StreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iON Live StreamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F3E07A1B31333C00929AFD /* iON_Live_StreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iON_Live_StreamTests.swift; sourceTree = "<group>"; };
+		63F3E07C1B31333C00929AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F3E0811B31333C00929AFD /* iON Live StreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iON Live StreamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F3E0851B31333C00929AFD /* iON_Live_StreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iON_Live_StreamUITests.swift; sourceTree = "<group>"; };
+		63F3E0871B31333C00929AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F3E0621B31333C00929AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3E0731B31333C00929AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3E07E1B31333C00929AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63F3E05C1B31333B00929AFD = {
+			isa = PBXGroup;
+			children = (
+				63F3E0671B31333C00929AFD /* iON Live Stream */,
+				63F3E0791B31333C00929AFD /* iON Live StreamTests */,
+				63F3E0841B31333C00929AFD /* iON Live StreamUITests */,
+				63F3E0661B31333C00929AFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F3E0661B31333C00929AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F3E0651B31333C00929AFD /* iON Live Stream.app */,
+				63F3E0761B31333C00929AFD /* iON Live StreamTests.xctest */,
+				63F3E0811B31333C00929AFD /* iON Live StreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F3E0671B31333C00929AFD /* iON Live Stream */ = {
+			isa = PBXGroup;
+			children = (
+				63F3E0681B31333C00929AFD /* AppDelegate.swift */,
+				63F3E06A1B31333C00929AFD /* ViewController.swift */,
+				63F3E06C1B31333C00929AFD /* Assets.xcassets */,
+				63F3E06E1B31333C00929AFD /* Main.storyboard */,
+				63F3E0711B31333C00929AFD /* Info.plist */,
+			);
+			path = "iON Live Stream";
+			sourceTree = "<group>";
+		};
+		63F3E0791B31333C00929AFD /* iON Live StreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				63F3E07A1B31333C00929AFD /* iON_Live_StreamTests.swift */,
+				63F3E07C1B31333C00929AFD /* Info.plist */,
+			);
+			path = "iON Live StreamTests";
+			sourceTree = "<group>";
+		};
+		63F3E0841B31333C00929AFD /* iON Live StreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63F3E0851B31333C00929AFD /* iON_Live_StreamUITests.swift */,
+				63F3E0871B31333C00929AFD /* Info.plist */,
+			);
+			path = "iON Live StreamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F3E0641B31333C00929AFD /* iON Live Stream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F3E08A1B31333C00929AFD /* Build configuration list for PBXNativeTarget "iON Live Stream" */;
+			buildPhases = (
+				63F3E0611B31333C00929AFD /* Sources */,
+				63F3E0621B31333C00929AFD /* Frameworks */,
+				63F3E0631B31333C00929AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iON Live Stream";
+			productName = "iON Live Stream";
+			productReference = 63F3E0651B31333C00929AFD /* iON Live Stream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63F3E0751B31333C00929AFD /* iON Live StreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F3E08D1B31333C00929AFD /* Build configuration list for PBXNativeTarget "iON Live StreamTests" */;
+			buildPhases = (
+				63F3E0721B31333C00929AFD /* Sources */,
+				63F3E0731B31333C00929AFD /* Frameworks */,
+				63F3E0741B31333C00929AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F3E0781B31333C00929AFD /* PBXTargetDependency */,
+			);
+			name = "iON Live StreamTests";
+			productName = "iON Live StreamTests";
+			productReference = 63F3E0761B31333C00929AFD /* iON Live StreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63F3E0801B31333C00929AFD /* iON Live StreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F3E0901B31333C00929AFD /* Build configuration list for PBXNativeTarget "iON Live StreamUITests" */;
+			buildPhases = (
+				63F3E07D1B31333C00929AFD /* Sources */,
+				63F3E07E1B31333C00929AFD /* Frameworks */,
+				63F3E07F1B31333C00929AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F3E0831B31333C00929AFD /* PBXTargetDependency */,
+			);
+			name = "iON Live StreamUITests";
+			productName = "iON Live StreamUITests";
+			productReference = 63F3E0811B31333C00929AFD /* iON Live StreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F3E05D1B31333B00929AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Hoke;
+				TargetAttributes = {
+					63F3E0641B31333C00929AFD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					63F3E0751B31333C00929AFD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 63F3E0641B31333C00929AFD;
+					};
+					63F3E0801B31333C00929AFD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 63F3E0641B31333C00929AFD;
+					};
+				};
+			};
+			buildConfigurationList = 63F3E0601B31333B00929AFD /* Build configuration list for PBXProject "iON Live Stream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F3E05C1B31333B00929AFD;
+			productRefGroup = 63F3E0661B31333C00929AFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F3E0641B31333C00929AFD /* iON Live Stream */,
+				63F3E0751B31333C00929AFD /* iON Live StreamTests */,
+				63F3E0801B31333C00929AFD /* iON Live StreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F3E0631B31333C00929AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F3E06D1B31333C00929AFD /* Assets.xcassets in Resources */,
+				63F3E0701B31333C00929AFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3E0741B31333C00929AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3E07F1B31333C00929AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F3E0611B31333C00929AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F3E06B1B31333C00929AFD /* ViewController.swift in Sources */,
+				63F3E0691B31333C00929AFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3E0721B31333C00929AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F3E07B1B31333C00929AFD /* iON_Live_StreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F3E07D1B31333C00929AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F3E0861B31333C00929AFD /* iON_Live_StreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63F3E0781B31333C00929AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F3E0641B31333C00929AFD /* iON Live Stream */;
+			targetProxy = 63F3E0771B31333C00929AFD /* PBXContainerItemProxy */;
+		};
+		63F3E0831B31333C00929AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F3E0641B31333C00929AFD /* iON Live Stream */;
+			targetProxy = 63F3E0821B31333C00929AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63F3E06E1B31333C00929AFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F3E06F1B31333C00929AFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63F3E0881B31333C00929AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63F3E0891B31333C00929AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		63F3E08B1B31333C00929AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iON Live Stream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hoke.iON-Live-Stream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63F3E08C1B31333C00929AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iON Live Stream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hoke.iON-Live-Stream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63F3E08E1B31333C00929AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iON Live StreamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hoke.iON-Live-StreamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iON Live Stream.app/Contents/MacOS/iON Live Stream";
+			};
+			name = Debug;
+		};
+		63F3E08F1B31333C00929AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iON Live StreamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hoke.iON-Live-StreamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iON Live Stream.app/Contents/MacOS/iON Live Stream";
+			};
+			name = Release;
+		};
+		63F3E0911B31333C00929AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iON Live StreamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hoke.iON-Live-StreamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iON Live Stream";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		63F3E0921B31333C00929AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iON Live StreamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hoke.iON-Live-StreamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iON Live Stream";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F3E0601B31333B00929AFD /* Build configuration list for PBXProject "iON Live Stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F3E0881B31333C00929AFD /* Debug */,
+				63F3E0891B31333C00929AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F3E08A1B31333C00929AFD /* Build configuration list for PBXNativeTarget "iON Live Stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F3E08B1B31333C00929AFD /* Debug */,
+				63F3E08C1B31333C00929AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63F3E08D1B31333C00929AFD /* Build configuration list for PBXNativeTarget "iON Live StreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F3E08E1B31333C00929AFD /* Debug */,
+				63F3E08F1B31333C00929AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63F3E0901B31333C00929AFD /* Build configuration list for PBXNativeTarget "iON Live StreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F3E0911B31333C00929AFD /* Debug */,
+				63F3E0921B31333C00929AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F3E05D1B31333B00929AFD /* Project object */;
+}
